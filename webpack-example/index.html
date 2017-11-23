@@ -1,0 +1,27 @@
+<html>
+<head>
+    <title>WEBPACK Example</title>
+    <link rel="stylesheet" href="dist/app.css"/>
+    <script defer src="dist/app.js"></script>
+</head>
+<body>
+<div class="container">
+    <h1>Did it compile? <img style="float: right" src="assets/img/webpack.svg" width="50" height="50" alt=""/></h1>
+    <p>You can totally get away with compiling your assets using npm scripts. No need for fancy task runners.</p>
+
+    <div class="alert alert-warning">
+        This is an example of a warning dialog.
+    </div>
+
+    <div class="alert alert-error">
+        This is an example of an error dialog.
+    </div>
+
+    <div class="webpack-logo"></div>
+
+    <script id="__bs_script__">//<![CDATA[
+    document.write("<script async src='http://HOST:3000/browser-sync/browser-sync-client.js?v=2.18.13'><\/script>".replace("HOST", location.hostname));
+    //]]></script>
+</div>
+</body>
+</html>

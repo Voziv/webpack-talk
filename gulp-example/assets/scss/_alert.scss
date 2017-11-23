@@ -1,0 +1,19 @@
+.alert {
+    padding       : 1em;
+    margin-bottom : 1em;
+    border-radius : 1px;
+
+    &.alert-warning {
+        background-color : mix(white, $brand-warning, 10%);
+        border           : 1px solid mix(black, $brand-warning, 10%);
+        font-weight      : bold;
+        color            : white;
+    }
+
+    &.alert-error {
+        background-color : $brand-error;
+        border           : 1px solid mix(black, $brand-error, 10%);
+        font-weight      : bold;
+        color            : white;
+    }
+}

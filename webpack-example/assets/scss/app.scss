@@ -1,0 +1,30 @@
+// http://paletton.com/palette.php?uid=33y0u0ku%2BpfluvHruuezRkGI5ft
+$brand-primary : #0D4D82;
+$brand-accent : #C99906;
+$brand-warning : #C99906;
+$brand-error : #C94006;
+$body-bg-color : #FFFFFF;
+$text-color : #3E3E3E;
+
+body {
+    background-color : $body-bg-color;
+    font-size        : 1.5em;
+    font-family      : sans-serif;
+    color            : $text-color;
+}
+
+.container {
+    width   : 800px;
+    margin  : auto;
+    padding : 1em;
+}
+
+.webpack-logo {
+    background-image : url('../img/webpack.svg');
+    background-size  : 100% 100%;
+    width            : 500px;
+    min-height       : 500px;
+}
+
+@import 'alert';
+
