@@ -48,7 +48,7 @@ module.exports = {
         ]
     },
     plugins : [
-        new webpack.optimize.UglifyJsPlugin(), // Disabled right now. Causes watch to take 6000ms instead of 100ms :(
+        // new webpack.optimize.UglifyJsPlugin(), // Disabled right now. Causes watch to take 6000ms instead of 100ms :(
 
         extractSass,
         new webpack.NamedModulesPlugin(),

@@ -1,9 +1,13 @@
-module.exports = {
-    sayHelloInEnglish: function() {
+export default class english {
+    sayHello()
+    {
         return "HELLO";
-    },
+    }
+}
 
-    sayHelloInSpanish: function() {
+export class spanish {
+    sayHello()
+    {
         return "Hola";
     }
-};
+}
